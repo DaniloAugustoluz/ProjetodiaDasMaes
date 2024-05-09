@@ -1,0 +1,1729 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+    box-sizing: border-box;
+    background-image: url(/img/pexels-mdsnmdsnmdsn-1831234.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 65%;
+    max-width: 90%;
+    height: auto;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.89);
+    z-index: 20;
+    margin-top: 25px;
+    margin-bottom: 12px;
+    border-radius: 40px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    padding-top: 10px;
+}
+.container img{
+    width: 75%;
+    height: auto;
+    border-radius: 15px;
+    border: 35px solid #FFF;
+}
+
+.container2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 98%;
+    height: auto;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.container2 button{
+    width: 100px;
+    height: 100px;
+    border-radius: 80px;
+    background-color: #f49fa4;
+    color: white;
+    border: none;
+    margin-top: 20px;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: small;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.container2 button:hover{
+    width: 100px;
+    height: 100px;
+    border-radius: 80px;
+    color: black;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.829);
+    transition: 0.3s;
+    border: none;
+    margin-bottom: 10px;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: small;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    z-index: 20;
+    padding: 6px;
+    width: 100%;
+    height: 50px;
+    margin-bottom: -20px;
+    margin-top: 15px;
+}
+.h3-depoimentos{
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #f49fa4;
+}
+
+.separador-item{
+    border: 1px solid rosybrown;
+    width: 30%;
+    margin-bottom: 75px;
+}
+.separador h1{
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    margin-top: 25px;
+}
+
+.rightside {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    z-index: 15;
+    padding: 20px;
+    border-radius: 18px;
+}
+.rightside img{
+    width: 310px;
+    height: 330px;
+    max-width: 90%;
+    border-radius: 12px;
+}
+.leftside {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    z-index: 15;
+    margin-bottom: 25px;
+}
+.leftside h2 {
+    padding: 35px;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 18px;
+}
+
+#voltar{
+    width: 100px;
+    height: 40px;
+    background-color: white;
+    color: black;
+}
+
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 40%;
+    height: 250px;
+}
+
+.buttons button{
+    width: 150px;
+    height: 150px;
+    border-radius: 80px;
+    background-color: #f49fa4;
+    border: none;
+    margin-bottom: 30px;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: small;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.buttons button:hover{
+    width: 150px;
+    height: 150px;
+    border-radius: 80px;
+    background-color: #f49fa4;
+    color: white;
+    font-weight: bold;
+    background-color: rgba(235, 148, 177, 0.9);
+    transition: 0.3s;
+    border: none;
+    margin-bottom: 10px;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: small;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    margin-top: 30px;
+    border: 3px solid rosybrown;
+    padding: 30px;
+    border-radius: 12px;
+    max-width: 90%;
+}
+
+
+#fade, #modal{
+    transition: 0.3s;
+    opacity: 1;
+    pointer-events: all;
+}
+
+#fade{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0, 0.4);
+    z-index: 5;
+}
+
+#modal{
+    position: fixed;
+    width: 500px;
+    max-width: 90%;
+    height: 180px;
+    padding: 1.2rem;
+    border-radius: 10px;
+    left: 50%;
+    top: 50%;
+    z-index: 10;
+    transform: translate(-50%, -50%);
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.modal-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px;
+    border-bottom: 2px solid rosybrown;
+    padding-bottom: 1.2rem;
+}
+.modal-header h4{
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 15px;
+}
+
+
+#close{
+    background-color: rosybrown;
+    color: whitesmoke;
+    margin-left: 25px;
+    width: 100px;
+    height: 25px;
+}
+#close:hover{
+    background-color: rgba(188, 143, 143, 0.6);
+    color: whitesmoke;
+    margin-left: 25px;
+    width: 100px;
+    height: 25px;
+}
+
+.modal-body{
+    padding: 1.2rem;
+}
+
+#modal.hide, 
+#fade.hide{
+    opacity: 0;
+    pointer-events: none;
+}
+
+#modal.hide{
+    top: 0%;
+}
+
+
+
+/*     ############ MODAL MARIA  ############   */
+#fadeMaria, #modalMaria{
+    transition: 0.3s;
+    opacity: 1;
+    pointer-events: all;
+}
+
+#fadeMaria{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0, 0.4);
+    z-index: 5;
+}
+
+#modalMaria{
+    position: fixed;
+    width: 500px;
+    max-width: 90%;
+    height: 180px;
+    padding: 1.2rem;
+    border-radius: 10px;
+    left: 50%;
+    top: 50%;
+    z-index: 10;
+    transform: translate(-50%, -50%);
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.modal-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px;
+    border-bottom: 1px solid rosybrown;
+    padding-bottom: 1.2rem;
+}
+.modal-header h4{
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 15px;
+}
+
+
+#closeMaria{
+    background-color: rosybrown;
+    color: whitesmoke;
+    margin-left: 25px;
+    width: 100px;
+    height: 25px;
+}
+#closeMaria:hover{
+    background-color: rgba(188, 143, 143, 0.6);
+    color: whitesmoke;
+    margin-left: 25px;
+    width: 100px;
+    height: 25px;
+}
+
+.modal-body{
+    padding: 1.2rem;
+}
+
+#modalMaria.hide, 
+#fadeMaria.hide{
+    opacity: 0;
+    pointer-events: none;
+}
+
+#modalMaria.hide{
+    top: 0%;
+}
+
+
+/*     ############ MODAL TAYNARA  ############   */
+#fadeTaynara, #modalTaynara{
+    transition: 0.3s;
+    opacity: 1;
+    pointer-events: all;
+}
+
+#fadeTaynara{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0, 0.4);
+    z-index: 5;
+}
+
+#modalTaynara{
+    position: fixed;
+    width: 500px;
+    max-width: 90%;
+    height: 180px;
+    padding: 1.2rem;
+    border-radius: 10px;
+    left: 50%;
+    top: 50%;
+    z-index: 10;
+    transform: translate(-50%, -50%);
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.modal-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px;
+    border-bottom: 1px solid rosybrown;
+    padding-bottom: 1.2rem;
+}
+.modal-header h4{
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 15px;
+}
+
+
+#closeTaynara{
+    background-color: rosybrown;
+    color: whitesmoke;
+    margin-left: 25px;
+    width: 100px;
+    height: 25px;
+}
+#closeTaynara:hover{
+    background-color: rgba(188, 143, 143, 0.6);
+    color: whitesmoke;
+    margin-left: 25px;
+    width: 100px;
+    height: 25px;
+}
+
+.modal-body{
+    padding: 1.2rem;
+}
+
+#modalTaynara.hide, 
+#fadeTaynara.hide{
+    opacity: 0;
+    pointer-events: none;
+}
+
+#modalTaynara.hide{
+    top: 0%;
+}
+
+
+/*     ############ MODAL KARINA  ############   */
+#fadeKarina, #modalKarina{
+    transition: 0.3s;
+    opacity: 1;
+    pointer-events: all;
+}
+
+#fadeKarina{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0, 0.4);
+    z-index: 5;
+}
+
+#modalKarina{
+    position: fixed;
+    width: 500px;
+    max-width: 90%;
+    height: 180px;
+    padding: 1.2rem;
+    border-radius: 10px;
+    left: 50%;
+    top: 50%;
+    z-index: 10;
+    transform: translate(-50%, -50%);
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.modal-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px;
+    border-bottom: 1px solid rosybrown;
+    padding-bottom: 1.2rem;
+}
+.modal-header h4{
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 15px;
+}
+
+
+#closeKarina{
+    background-color: rosybrown;
+    color: whitesmoke;
+    margin-left: 25px;
+    width: 100px;
+    height: 25px;
+}
+#closeKarina:hover{
+    background-color: rgba(188, 143, 143, 0.6);
+    color: whitesmoke;
+    margin-left: 25px;
+    width: 100px;
+    height: 25px;
+}
+
+.modal-body{
+    padding: 1.2rem;
+}
+
+#modalKarina.hide, 
+#fadeKarina.hide{
+    opacity: 0;
+    pointer-events: none;
+}
+
+#modalKarina.hide{
+    top: 0%;
+}
+
+
+
+/*     ############ MODAL ALINE  ############   */
+#fadeAline, #modalAline{
+    transition: 0.3s;
+    opacity: 1;
+    pointer-events: all;
+}
+
+#fadeAline{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0, 0.4);
+    z-index: 5;
+}
+
+#modalAline{
+    position: fixed;
+    width: 500px;
+    max-width: 90%;
+    height: 180px;
+    padding: 1.2rem;
+    border-radius: 10px;
+    left: 50%;
+    top: 50%;
+    z-index: 10;
+    transform: translate(-50%, -50%);
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.modal-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px;
+    border-bottom: 1px solid rosybrown;
+    padding-bottom: 1.2rem;
+}
+.modal-header h4{
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 15px;
+}
+
+
+#closeAline{
+    background-color: rosybrown;
+    color: whitesmoke;
+    margin-left: 25px;
+    width: 100px;
+    height: 25px;
+}
+#closeAline:hover{
+    background-color: rgba(188, 143, 143, 0.6);
+    color: whitesmoke;
+    margin-left: 25px;
+    width: 100px;
+    height: 25px;
+}
+
+.modal-body{
+    padding: 1.2rem;
+}
+
+#modalAline.hide, 
+#fadeAline.hide{
+    opacity: 0;
+    pointer-events: none;
+}
+
+#modalAline.hide{
+    top: 0%;
+}
+
+
+
+/*     ############ MODAL EDI  ############   */
+#fadeEdi, #modalEdi{
+    transition: 0.3s;
+    opacity: 1;
+    pointer-events: all;
+}
+
+#fadeEdi{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0, 0.4);
+    z-index: 5;
+}
+
+#modalEdi{
+    position: fixed;
+    width: 500px;
+    max-width: 90%;
+    height: 180px;
+    padding: 1.2rem;
+    border-radius: 10px;
+    left: 50%;
+    top: 50%;
+    z-index: 10;
+    transform: translate(-50%, -50%);
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.modal-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px;
+    border-bottom: 1px solid rosybrown;
+    padding-bottom: 1.2rem;
+}
+.modal-header h4{
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 15px;
+}
+
+
+#closeEdi{
+    background-color: rosybrown;
+    color: whitesmoke;
+    margin-left: 25px;
+    width: 100px;
+    height: 25px;
+}
+#closeEdi:hover{
+    background-color: rgba(188, 143, 143, 0.6);
+    color: whitesmoke;
+    margin-left: 25px;
+    width: 100px;
+    height: 25px;
+}
+
+.modal-body{
+    padding: 1.2rem;
+}
+
+#modalEdi.hide, 
+#fadeEdi.hide{
+    opacity: 0;
+    pointer-events: none;
+}
+
+#modalEdi.hide{
+    top: 0%;
+}
+
+
+
+/*     ############ MODAL MELISSA  ############   */
+#fadeMelissa, #modalMelissa{
+    transition: 0.3s;
+    opacity: 1;
+    pointer-events: all;
+}
+
+#fadeMelissa{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0, 0.4);
+    z-index: 5;
+}
+
+#modalMelissa{
+    position: fixed;
+    width: 500px;
+    max-width: 90%;
+    height: 180px;
+    padding: 1.2rem;
+    border-radius: 10px;
+    left: 50%;
+    top: 50%;
+    z-index: 10;
+    transform: translate(-50%, -50%);
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.modal-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px;
+    border-bottom: 1px solid rosybrown;
+    padding-bottom: 1.2rem;
+}
+.modal-header h4{
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 15px;
+}
+
+
+#closeMelissa{
+    background-color: rosybrown;
+    color: whitesmoke;
+    margin-left: 25px;
+    width: 100px;
+    height: 25px;
+}
+#closeMelissa:hover{
+    background-color: rgba(188, 143, 143, 0.6);
+    color: whitesmoke;
+    margin-left: 25px;
+    width: 100px;
+    height: 25px;
+}
+
+.modal-body{
+    padding: 1.2rem;
+}
+
+#modalMelissa.hide, 
+#fadeMelissa.hide{
+    opacity: 0;
+    pointer-events: none;
+}
+
+#modalMelissa.hide{
+    top: 0%;
+}
+
+
+
+/*     ############ MODAL SABRINA  ############   */
+#fadeSabrina, #modalSabrina{
+    transition: 0.3s;
+    opacity: 1;
+    pointer-events: all;
+}
+
+#fadeSabrina{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0, 0.4);
+    z-index: 5;
+}
+
+#modalSabrina{
+    position: fixed;
+    width: 500px;
+    max-width: 90%;
+    height: 180px;
+    padding: 1.2rem;
+    border-radius: 10px;
+    left: 50%;
+    top: 50%;
+    z-index: 10;
+    transform: translate(-50%, -50%);
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.modal-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px;
+    border-bottom: 1px solid rosybrown;
+    padding-bottom: 1.2rem;
+}
+.modal-header h4{
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 15px;
+}
+
+
+#closeSabrina{
+    background-color: rosybrown;
+    color: whitesmoke;
+    margin-left: 25px;
+    width: 100px;
+    height: 25px;
+}
+#closeSabrina:hover{
+    background-color: rgba(188, 143, 143, 0.6);
+    color: whitesmoke;
+    margin-left: 25px;
+    width: 100px;
+    height: 25px;
+}
+
+.modal-body{
+    padding: 1.2rem;
+}
+
+#modalSabrina.hide, 
+#fadeSabrina.hide{
+    opacity: 0;
+    pointer-events: none;
+}
+
+#modalSabrina.hide{
+    top: 0%;
+}
+
+
+
+/*     ############ MODAL ARIANE  ############   */
+#fadeAriane, #modalAriane{
+    transition: 0.3s;
+    opacity: 1;
+    pointer-events: all;
+}
+
+#fadeAriane{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0, 0.4);
+    z-index: 5;
+}
+
+#modalAriane{
+    position: fixed;
+    width: 500px;
+    max-width: 90%;
+    height: 180px;
+    padding: 1.2rem;
+    border-radius: 10px;
+    left: 50%;
+    top: 50%;
+    z-index: 10;
+    transform: translate(-50%, -50%);
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.modal-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px;
+    border-bottom: 1px solid rosybrown;
+    padding-bottom: 1.2rem;
+}
+.modal-header h4{
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 15px;
+}
+
+
+#closeAriane{
+    background-color: rosybrown;
+    color: whitesmoke;
+    margin-left: 25px;
+    width: 100px;
+    height: 25px;
+}
+#closeAriane:hover{
+    background-color: rgba(188, 143, 143, 0.6);
+    color: whitesmoke;
+    margin-left: 25px;
+    width: 100px;
+    height: 25px;
+}
+
+.modal-body{
+    padding: 1.2rem;
+}
+
+#modalAriane.hide, 
+#fadeAriane.hide{
+    opacity: 0;
+    pointer-events: none;
+}
+
+#modalAriane.hide{
+    top: 0%;
+}
+
+
+
+
+/*     ############ MODAL ANA PAULA  ############   */
+#fadeAna, #modalAna{
+    transition: 0.3s;
+    opacity: 1;
+    pointer-events: all;
+}
+
+#fadeAna{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0, 0.4);
+    z-index: 5;
+}
+
+#modalAna{
+    position: fixed;
+    width: 500px;
+    max-width: 90%;
+    height: 180px;
+    padding: 1.2rem;
+    border-radius: 10px;
+    left: 50%;
+    top: 50%;
+    z-index: 10;
+    transform: translate(-50%, -50%);
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.modal-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px;
+    border-bottom: 1px solid rosybrown;
+    padding-bottom: 1.2rem;
+}
+.modal-header h4{
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 15px;
+}
+
+
+#closeAna{
+    background-color: rosybrown;
+    color: whitesmoke;
+    margin-left: 25px;
+    width: 100px;
+    height: 25px;
+}
+#closeAna:hover{
+    background-color: rgba(188, 143, 143, 0.6);
+    color: whitesmoke;
+    margin-left: 25px;
+    width: 100px;
+    height: 25px;
+}
+
+.modal-body{
+    padding: 1.2rem;
+}
+
+#modalAna.hide, 
+#fadeAna.hide{
+    opacity: 0;
+    pointer-events: none;
+}
+
+#modalAna.hide{
+    top: 0%;
+}
+
+
+
+/*     ############ MODAL D. PRISCILA  ############   */
+#fadePriscila, #modalPriscila{
+    transition: 0.3s;
+    opacity: 1;
+    pointer-events: all;
+}
+
+#fadePriscila{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0, 0.4);
+    z-index: 5;
+}
+
+#modalPriscila{
+    position: fixed;
+    width: 500px;
+    max-width: 90%;
+    height: 180px;
+    padding: 1.2rem;
+    border-radius: 10px;
+    left: 50%;
+    top: 50%;
+    z-index: 10;
+    transform: translate(-50%, -50%);
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.modal-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px;
+    border-bottom: 1px solid rosybrown;
+    padding-bottom: 1.2rem;
+}
+.modal-header h4{
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 15px;
+}
+
+
+#closePriscila{
+    background-color: rosybrown;
+    color: whitesmoke;
+    margin-left: 25px;
+    width: 100px;
+    height: 25px;
+}
+#closePriscila:hover{
+    background-color: rgba(188, 143, 143, 0.6);
+    color: whitesmoke;
+    margin-left: 25px;
+    width: 100px;
+    height: 25px;
+}
+
+.modal-body{
+    padding: 1.2rem;
+}
+
+#modalPriscila.hide, 
+#fadePriscila.hide{
+    opacity: 0;
+    pointer-events: none;
+}
+
+#modalPriscila.hide{
+    top: 0%;
+}
+
+
+
+
+
+/*     ############ MODAL MÔNICA  ############   */
+#fadeMonica, #modalMonica{
+    transition: 0.3s;
+    opacity: 1;
+    pointer-events: all;
+}
+
+#fadeMonica{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0, 0.4);
+    z-index: 5;
+}
+
+#modalMonica{
+    position: fixed;
+    width: 500px;
+    max-width: 90%;
+    height: 180px;
+    padding: 1.2rem;
+    border-radius: 10px;
+    left: 50%;
+    top: 50%;
+    z-index: 10;
+    transform: translate(-50%, -50%);
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.modal-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px;
+    border-bottom: 1px solid rosybrown;
+    padding-bottom: 1.2rem;
+}
+.modal-header h4{
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 15px;
+}
+
+
+#closeMonica{
+    background-color: rosybrown;
+    color: whitesmoke;
+    margin-left: 25px;
+    width: 100px;
+    height: 25px;
+}
+#closeMonica:hover{
+    background-color: rgba(188, 143, 143, 0.6);
+    color: whitesmoke;
+    margin-left: 25px;
+    width: 100px;
+    height: 25px;
+}
+
+.modal-body{
+    padding: 1.2rem;
+}
+
+#modalMonica.hide, 
+#fadeMonica.hide{
+    opacity: 0;
+    pointer-events: none;
+}
+
+#modalMonica.hide{
+    top: 0%;
+}
+
+
+
+
+/*     ############ MODAL BRUNA  ############   */
+#fadeBruna, #modalBruna{
+    transition: 0.3s;
+    opacity: 1;
+    pointer-events: all;
+}
+
+#fadeBruna{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0, 0.4);
+    z-index: 5;
+}
+
+#modalBruna{
+    position: fixed;
+    width: 500px;
+    max-width: 90%;
+    height: 180px;
+    padding: 1.2rem;
+    border-radius: 10px;
+    left: 50%;
+    top: 50%;
+    z-index: 10;
+    transform: translate(-50%, -50%);
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.modal-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px;
+    border-bottom: 1px solid rosybrown;
+    padding-bottom: 1.2rem;
+}
+.modal-header h4{
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 15px;
+}
+
+
+#closeBruna{
+    background-color: rosybrown;
+    color: whitesmoke;
+    margin-left: 25px;
+    width: 100px;
+    height: 25px;
+}
+#closeBruna:hover{
+    background-color: rgba(188, 143, 143, 0.6);
+    color: whitesmoke;
+    margin-left: 25px;
+    width: 100px;
+    height: 25px;
+}
+
+.modal-body{
+    padding: 1.2rem;
+}
+
+#modalBruna.hide, 
+#fadeBruna.hide{
+    opacity: 0;
+    pointer-events: none;
+}
+
+#modalBruna.hide{
+    top: 0%;
+}
+
+
+
+
+/*     ############ MODAL JADY  ############   */
+#fadeJady, #modalJady{
+    transition: 0.3s;
+    opacity: 1;
+    pointer-events: all;
+}
+
+#fadeJady{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0, 0.4);
+    z-index: 5;
+}
+
+#modalJady{
+    position: fixed;
+    width: 500px;
+    max-width: 90%;
+    height: 180px;
+    padding: 1.2rem;
+    border-radius: 10px;
+    left: 50%;
+    top: 50%;
+    z-index: 10;
+    transform: translate(-50%, -50%);
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.modal-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px;
+    border-bottom: 1px solid rosybrown;
+    padding-bottom: 1.2rem;
+}
+.modal-header h4{
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 15px;
+}
+
+
+#closeJady{
+    background-color: rosybrown;
+    color: whitesmoke;
+    margin-left: 25px;
+    width: 100px;
+    height: 25px;
+}
+#closeJady:hover{
+    background-color: rgba(188, 143, 143, 0.6);
+    color: whitesmoke;
+    margin-left: 25px;
+    width: 100px;
+    height: 25px;
+}
+
+.modal-body{
+    padding: 1.2rem;
+}
+
+#modalJady.hide, 
+#fadeJady.hide{
+    opacity: 0;
+    pointer-events: none;
+}
+
+#modalJady.hide{
+    top: 0%;
+}
+
+
+
+
+/*     ############ MODAL BIANCA  ############   */
+#fadeBianca, #modalBianca{
+    transition: 0.3s;
+    opacity: 1;
+    pointer-events: all;
+}
+
+#fadeBianca{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0, 0.4);
+    z-index: 5;
+}
+
+#modalBianca{
+    position: fixed;
+    width: 500px;
+    max-width: 90%;
+    height: 180px;
+    padding: 1.2rem;
+    border-radius: 10px;
+    left: 50%;
+    top: 50%;
+    z-index: 10;
+    transform: translate(-50%, -50%);
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.modal-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px;
+    border-bottom: 1px solid rosybrown;
+    padding-bottom: 1.2rem;
+}
+.modal-header h4{
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 15px;
+}
+
+
+#closeBianca{
+    background-color: rosybrown;
+    color: whitesmoke;
+    margin-left: 25px;
+    width: 100px;
+    height: 25px;
+}
+#closeBianca:hover{
+    background-color: rgba(188, 143, 143, 0.6);
+    color: whitesmoke;
+    margin-left: 25px;
+    width: 100px;
+    height: 25px;
+}
+
+.modal-body{
+    padding: 1.2rem;
+}
+
+#modalBianca.hide, 
+#fadeBianca.hide{
+    opacity: 0;
+    pointer-events: none;
+}
+
+#modalBianca.hide{
+    top: 0%;
+}
+
+
+
+/*     ############ MODAL TALITA  ############   */
+#fadeTalita, #modalTalita{
+    transition: 0.3s;
+    opacity: 1;
+    pointer-events: all;
+}
+
+#fadeTalita{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0, 0.4);
+    z-index: 5;
+}
+
+#modalTalita{
+    position: fixed;
+    width: 500px;
+    max-width: 90%;
+    height: 180px;
+    padding: 1.2rem;
+    border-radius: 10px;
+    left: 50%;
+    top: 50%;
+    z-index: 10;
+    transform: translate(-50%, -50%);
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.modal-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px;
+    border-bottom: 1px solid rosybrown;
+    padding-bottom: 1.2rem;
+}
+.modal-header h4{
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 15px;
+}
+
+
+#closeTalita{
+    background-color: rosybrown;
+    color: whitesmoke;
+    margin-left: 25px;
+    width: 100px;
+    height: 25px;
+}
+#closeTalita:hover{
+    background-color: rgba(188, 143, 143, 0.6);
+    color: whitesmoke;
+    margin-left: 25px;
+    width: 100px;
+    height: 25px;
+}
+
+.modal-body{
+    padding: 1.2rem;
+}
+
+#modalTalita.hide, 
+#fadeTalita.hide{
+    opacity: 0;
+    pointer-events: none;
+}
+
+#modalTalita.hide{
+    top: 0%;
+}
+
+
+
+
+/*     ############ MODAL JÉSSICA  ############   */
+#fadeJessica, #modalJessica{
+    transition: 0.3s;
+    opacity: 1;
+    pointer-events: all;
+}
+
+#fadeJessica{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0, 0.4);
+    z-index: 5;
+}
+
+#modalJessica{
+    position: fixed;
+    width: 500px;
+    max-width: 90%;
+    height: 180px;
+    padding: 1.2rem;
+    border-radius: 10px;
+    left: 50%;
+    top: 50%;
+    z-index: 10;
+    transform: translate(-50%, -50%);
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.modal-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px;
+    border-bottom: 1px solid rosybrown;
+    padding-bottom: 1.2rem;
+}
+.modal-header h4{
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 15px;
+}
+
+
+#closeJessica{
+    background-color: rosybrown;
+    color: whitesmoke;
+    margin-left: 25px;
+    width: 100px;
+    height: 25px;
+}
+#closeJessica:hover{
+    background-color: rgba(188, 143, 143, 0.6);
+    color: whitesmoke;
+    margin-left: 25px;
+    width: 100px;
+    height: 25px;
+}
+
+.modal-body{
+    padding: 1.2rem;
+}
+
+#modalJessica.hide, 
+#fadeJessica.hide{
+    opacity: 0;
+    pointer-events: none;
+}
+
+#modalJessica.hide{
+    top: 0%;
+}
+
+
+
+
+
+/*     ############ MODAL MARIA FERNANDA  ############   */
+#fadeMariaF, #modalMariaF{
+    transition: 0.3s;
+    opacity: 1;
+    pointer-events: all;
+}
+
+#fadeMariaF{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0, 0.4);
+    z-index: 5;
+}
+
+#modalMariaF{
+    position: fixed;
+    width: 500px;
+    max-width: 90%;
+    height: 180px;
+    padding: 1.2rem;
+    border-radius: 10px;
+    left: 50%;
+    top: 50%;
+    z-index: 10;
+    transform: translate(-50%, -50%);
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.modal-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px;
+    border-bottom: 1px solid rosybrown;
+    padding-bottom: 1.2rem;
+}
+.modal-header h4{
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 15px;
+}
+
+
+#closeMariaF{
+    background-color: rosybrown;
+    color: whitesmoke;
+    margin-left: 25px;
+    width: 100px;
+    height: 25px;
+}
+#closeMariaF:hover{
+    background-color: rgba(188, 143, 143, 0.6);
+    color: whitesmoke;
+    margin-left: 25px;
+    width: 100px;
+    height: 25px;
+}
+
+.modal-body{
+    padding: 1.2rem;
+}
+
+#modalMariaF.hide, 
+#fadeMariaF.hide{
+    opacity: 0;
+    pointer-events: none;
+}
+
+#modalMariaF.hide{
+    top: 0%;
+}
